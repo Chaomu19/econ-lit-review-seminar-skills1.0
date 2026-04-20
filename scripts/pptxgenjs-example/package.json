@@ -1,0 +1,12 @@
+{
+  "name": "econ-lit-review-pptxgenjs-example",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "node generate_deck.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

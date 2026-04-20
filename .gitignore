@@ -1,0 +1,40 @@
+# Original papers and large artifacts
+*.pdf
+*.pptx
+*.key
+*.pages
+
+# Generated conversion outputs
+converted_md/
+papers/
+**/images/
+**/layout.json
+**/*_model.json
+**/*_content_list.json
+**/*_origin.pdf
+
+# PPT automation outputs and intermediates
+node_modules/
+slides_workdir/
+template_unpack/
+*.xml
+*_backup*.pptx
+*_current.xml
+*_ref.xml
+dist/
+build/
+tmp/
+
+# Images and screenshots
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Local/editor files
+.DS_Store
+.vscode/
+.cursor/
+.env
+.env.*
+!.env.example
