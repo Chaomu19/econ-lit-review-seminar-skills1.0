@@ -2,7 +2,7 @@ const pptxgen = require("pptxgenjs");
 
 const pptx = new pptxgen();
 pptx.layout = "LAYOUT_WIDE";
-pptx.author = "econ-lit-review-seminar-skill-cn";
+pptx.author = "econ-lit-review-seminar-skills1.0";
 pptx.subject = "从结构化 Markdown 生成文献综述组会 PPT 的示例";
 pptx.title = "经济学文献综述组会";
 pptx.company = "";
